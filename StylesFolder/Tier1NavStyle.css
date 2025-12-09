@@ -1,0 +1,100 @@
+.Tier1Nav{
+    
+    height: 75px;
+    margin:0;
+    padding:0;
+
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+
+.imgContainer{
+    height:75px;
+    width:180px;
+    
+    display:cover;
+    display:flex;
+    justify-content:center;
+
+   
+    
+}
+
+.imgContainer img{
+    height:100%;
+    width:auto;
+    
+}
+
+.Tier1A{
+    display:grid;
+    grid-template-columns:25% 75%;
+    align-items:center;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    box-sizing:border-box;
+    border-radius:4px;
+
+    background-image: url("../Img/search.png");
+    background-position:10px 10px;
+    background-repeat:no-repeat;
+    padding-left:40px;
+}
+
+
+.Tier1B{
+    display:grid;
+    grid-template-columns: 100px 100px 100px;
+    
+    justify-content: end;
+}
+
+.iconBox{
+    display:flex;
+    width: 100px;
+    height:75px;
+    align-items:center;
+    justify-content:center;
+    
+
+}
+.iconBox:hover{
+    background: grey;
+}
+
+.iconContainer{
+    display:flex;
+    
+    height:100%;
+    align-items:center;
+    justify-content:center;
+    
+}
+.iconContainer img{
+    
+}
+.iconTitle{
+    
+}
+.iconTitle p{
+    margin: 0;
+    padding:0;
+    font-weight:bold;
+    font-size:14px;
+    text-align:center;
+}
+
+.innerContainer{
+    
+    
+    width:50%;
+    height:60px;
+
+    display:grid;
+    grid-template-rows: 2fr 1fr;
+    
+}

@@ -1,0 +1,58 @@
+.AdSection{
+    
+    height:750px;
+    margin-bottom:60px;
+    display:flex;
+
+    justify-content:center;
+}
+
+.box1{
+    grid-area: box1;
+    background: url("https://media.kohlsimg.com/is/image/kohls/hp-251129-h-z1-md?op_sharpen=1");
+}
+.box2{
+    grid-area: box2;
+    background:url("https://media.kohlsimg.com/is/image/kohls/hp-251127-h-z4-md?op_sharpen=1");
+}
+.box3{
+    grid-area: box3;
+    background:url("https://media.kohlsimg.com/is/image/kohls/hp-251127-h-z2-md?op_sharpen=1");
+}
+.box4{
+    grid-area: box4;
+    background:url("https://media.kohlsimg.com/is/image/kohls/hp-251127-h-z5-md?op_sharpen=1");
+}
+.box5{
+    grid-area: box5;
+    background:url("https://media.kohlsimg.com/is/image/kohls/hp-251129-h-z3-md?op_sharpen=1");
+}
+.box6{
+    grid-area: box6;
+    background:url("https://media.kohlsimg.com/is/image/kohls/hp-251127-h-z6-md?op_sharpen=1");
+}
+
+.AdGrid{
+    height:100%;
+    width:100%;
+    max-width:1400px;
+    display:grid;
+    grid-template-areas:
+    'box1 box1 box3 box5'
+    'box1 box1 box4 box5'
+    'box2 box2 box4 box6';
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* 4 equal columns */
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.AdGrid > div {
+  
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.curve{
+    border-radius:5px;
+}

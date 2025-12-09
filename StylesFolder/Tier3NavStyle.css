@@ -1,0 +1,22 @@
+.Tier3Nav{
+    border-bottom:1px solid grey;
+    height: 50px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    gap: 5px; 
+    place-items:center;
+}
+
+.Tier3Nav p{
+    font-weight:bold;
+    font-size:14px;
+}
+
+.dropDown{
+    height:100%;
+    width:100px;
+    background:beige;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}

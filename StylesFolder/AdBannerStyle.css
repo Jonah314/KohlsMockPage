@@ -1,0 +1,20 @@
+.AdBanner{
+   height: 110px;
+   
+   display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.AdContainer{
+    
+    height: 35px;
+    width:100%;
+    max-width:1400px;
+    
+}
+
+.AdContainer img{
+    
+    object-fit:contain;
+}

@@ -1,0 +1,38 @@
+.Tier2Nav{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    height: 40px;
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+.Tier2Nav p{
+    font-weight:bold;
+}
+
+.section{
+    
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    place-items:center;
+}
+
+.section p{
+    margin:0;
+    text-align: center;
+    line-height: 40px;
+    font-weight:bold;
+}
+
+.iconAndTextWrapper{
+    display:flex;
+    align-items:center;
+    gap:5px;
+}
+.icon{
+    width:1em;
+    height:1em;
+}
+.sectionA{
+    display:flex;
+    margin: auto 10px;
+}
